@@ -11,7 +11,7 @@ const ShopContextProvider = (props) => {
   const delivery_fee = 10;
 
   // backendUrl is imported from the admin app
-  const backendUrl = import.meta.env.VITE_BACKEND_URL;
+  const backendUrl = "https://e-commerece-website-backend-rnk8.onrender.com";
 
   // for searching state
   const [search, setSearch] = useState("");
